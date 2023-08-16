@@ -76,7 +76,7 @@ ol {
   gap: 5px;
   border: none;
   color: #fff;
-  font-family:"Fira Sans Condensed", serif;
+  font-family: "Fira Sans Condensed", serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -86,8 +86,8 @@ ol {
 .search-form__fieldset-title {
   color: #fff;
   font-family: inherit;
+  font-weight: inherit;
   font-size: inherit;
-  font-weight: inherit; 
 }
 
 .search-form__label {
@@ -120,8 +120,9 @@ ol {
   cursor: pointer;
   appearance: none;
 }
+
 .search-form__textfield::placeholder {
-  color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .search-form__textfield:focus {
@@ -191,7 +192,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   align-self: end;
   border: 1px solid currentColor;
   color: #fff;
-  font-family:"Fira Sans Condensed",serif;
+  font-family: "Fira Sans Condensed", serif;
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
@@ -281,8 +282,8 @@ button:focus {
 }
 
 .content__video-card-title {
-  margin-block-start: 2px;
   margin-inline-start: 2px;
+  margin-block-start: 2px;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -292,8 +293,8 @@ button:focus {
 }
 
 .content__video-card-description {
-  margin-block-start: 6px;
   margin-inline-start: 2px;
+  margin-block-start: 6px;
   font-family: "Fira Sans Condensed", serif;
   font-weight: 400;
   font-size: 18px;
